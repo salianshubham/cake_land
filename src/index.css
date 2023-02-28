@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url('cake_land_logo.jpg')no-repeat;
+  background-size: cover;
+  min-height: 200vh;
+  opacity: 0.2;
+}
+.divname{
+  color: black;
+  background-color: #e6a5e2;
+  height: 400px;
+  
+
+}
+h1{
+  margin: 0;
+}
+

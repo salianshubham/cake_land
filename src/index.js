@@ -4,7 +4,10 @@ import "./index.css";
 
 ReactDOM.render(
   <>
-    <h1>shuhham</h1>
+    <div className="divname">
+        {/* <h1>shubham</h1> */}
+        
+    </div>
   </>,
   document.getElementById("root")
 );
