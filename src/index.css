@@ -6,14 +6,17 @@
   font-family: "Gloock", serif;
 }
 
-body{
+.front_Page{
   background: url('front_page1.jpg')no-repeat;
   background-size: cover;
 }
-img{
-  
-  
+
+.container{
+  display: flex;
+  min-height: 100vh;
+
 }
+
 
 header {
   position: relative;
@@ -24,8 +27,8 @@ header {
   padding: 20px 100px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  /* z-index: 99; */
+  align-items: center;
+  z-index: 99;
   
   
 }
@@ -35,8 +38,8 @@ header {
   user-select: none;
   
 }
-.navigation{
-  margin-top: 40px;
+ .navigation{
+  margin-top: 20px;
 }
 .navigation a {
   position: relative;
@@ -65,11 +68,55 @@ header {
 
 .navigation a:hover::after {
   transform: scaleX(1);
+} 
+/* #services{}
+#services .card1{
+ flex-direction: column;
+  text-align: center;
+  background-size: 100px;
+} */
+
+img{
+  height: 50px;
+  
 }
-footer{
-  height: 15vh;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+#services{display: flex;
+justify-content: space-between;}
+.div1{
+  width: 200px;
+  height: 100px;
+    
+
+  background-color: black;
+  background: url('front_page.jpg')no-repeat;
+  background-size: 200px
+}
+.div2{
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  background-color: aqua;
+}
+.div3{
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  background-color: aqua;
+}
+.div4{
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  background-color: aqua;
+}
+
+.middlePage{
+  background: url('front_page1.jpg')no-repeat;
+  background-size: cover;
+}
+
+.middlePageContainer{
   display: flex;
+ 
+
 }
