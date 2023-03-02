@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Gloock&family=Montserrat:wght@100&family=Mulish:wght@400;1000&family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dancing+Script:wght@700&family=Gloock&family=Montserrat:wght@100&family=Mulish:wght@400;1000&family=Roboto:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -8,12 +9,13 @@
 
 .front_Page{
   background: url('front_page1.jpg')no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
-.container{
+.front_Page1{
   display: flex;
-  min-height: 100vh;
+  min-height: 1000px;
+  
 
 }
 
@@ -29,8 +31,6 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 99;
-  
-  
 }
 .logo {
   font-size: 5em;
@@ -69,54 +69,385 @@ header {
 .navigation a:hover::after {
   transform: scaleX(1);
 } 
-/* #services{}
-#services .card1{
- flex-direction: column;
-  text-align: center;
-  background-size: 100px;
-} */
 
-img{
-  height: 50px;
+/* ******************** middle page********************** */
+.Speciality{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+  color: #c0a21d;
+}
+.our_menu{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+}
+.cake_type{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+/* ****************1st row****************** */
+.card1{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.cake_card1{
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background-color: #EBF4F5;
   
 }
-#services{display: flex;
-justify-content: space-between;}
-.div1{
-  width: 200px;
-  height: 100px;
-    
-
-  background-color: black;
-  background: url('front_page.jpg')no-repeat;
-  background-size: 200px
-}
-.div2{
-  width: 100px;
-  height: 100px;
-  padding: 30px;
-  background-color: aqua;
-}
-.div3{
-  width: 100px;
-  height: 100px;
-  padding: 30px;
-  background-color: aqua;
-}
-.div4{
-  width: 100px;
-  height: 100px;
-  padding: 30px;
-  background-color: aqua;
-}
-
-.middlePage{
+.cake_card1Cake_cardimage1{
+  width: 150px;
+  height: 150px;
   background: url('front_page1.jpg')no-repeat;
-  background-size: cover;
+  background-size: 200px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.cake_card1Cake_cardName1{
+  margin-top: 70px;
+  margin-left: 10px;
 }
 
-.middlePageContainer{
+.cake_card2{
   display: flex;
- 
+  width: 400px;
+  height: 200px;
+  background-color: #EBF4F5;
+}
+.cake_card2Cake_cardimage2{
+  width: 150px;
+  height: 150px;
+  background: url('doll.jpg')no-repeat;
+  background-size: 200px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.cake_card2Cake_cardName2{
+  margin-top: 70px;
+  margin-left: 10px;
+}
 
+.cake_card3{
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background-color: #EBF4F5;
+}
+.cake_card3Cake_cardimage3{
+  width: 150px;
+  height: 150px;
+  background: url('download.jpg')no-repeat;
+  background-size: 200px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.cake_card3Cake_cardName3{
+  margin-top: 70px;
+  margin-left: 10px;
+}
+/* ****************2nd row****************** */
+
+.card2{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.card2Cake_Card1{
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background-color: #EBF4F5;
+  
+}
+.card2Cake_Card1cake_cardimage2{
+  width: 150px;
+  height: 150px;
+  background: url('download.jpg')no-repeat;
+  background-size: 200px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.card2Cake_Card1cake_cardname2{
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+
+.card2Cake_Card2{
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background-color: #EBF4F5;
+  
+}
+.card2Cake_Card2cake_cardimage2{
+  width: 150px;
+  height: 150px;
+  background: url('front_page1.jpg')no-repeat;
+  background-size: 200px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.card2Cake_Card2cake_cardname2{
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+
+
+.card2Cake_Card3{
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background-color: #EBF4F5;
+  
+}
+.card2Cake_Card3cake_cardimage3{
+  width: 150px;
+  height: 150px;
+  background: url('doll.jpg')no-repeat;
+  background-size: 200px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.card2Cake_Card3cake_cardname3{
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+/* ****************3rd row****************** */
+
+.card3{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.card3Cake_Card1{
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background-color: #EBF4F5;
+  
+}
+.card3Cake_Card1cake_cardimage1{
+  width: 150px;
+  height: 150px;
+  background: url('front_page1.jpg')no-repeat;
+  background-size: 200px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.card3Cake_Card1cake_cardname1{
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+
+.card3Cake_Card2{
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background-color: #EBF4F5;
+  
+}
+.card3Cake_Card2cake_cardimage2{
+  width: 150px;
+  height: 150px;
+  background: url('download.jpg')no-repeat;
+  background-size: 200px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.card3Cake_Card2cake_cardname2{
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+
+
+.card3Cake_Card3{
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background-color: #EBF4F5;
+  
+}
+.card3Cake_Card3cake_cardimage3{
+  width: 150px;
+  height: 150px;
+  background: url('pineapple.jpeg')no-repeat;
+  background-size: 200px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.card3Cake_Card3cake_cardname3{
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+/* **********************hot picked cake*************************** */
+
+.Our_Hot_Picked_Cakes{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.Our_Hot_Picked_Cakescake_div{
+  display: flex;
+  width: 40cm;
+  justify-content: space-between;
+  
+}
+
+.Our_Hot_Picked_image1{
+  width: 300px;
+  height: 330px;
+  background: url('front_page.jpg')no-repeat;
+  background-size: 320px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+.Our_Hot_Picked_image2{
+  width: 300px;
+  height: 235px;
+  background: url('doll.jpg')no-repeat;
+  background-size: 300px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+.Our_Hot_Picked_image3{
+  width: 310px;
+  height: 235px;
+  background: url('pineapple.jpeg')no-repeat;
+  background-size: 300px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+.Our_Hot_Picked_image4{
+  width: 310px;
+  height: 350px;
+  background: url('front_page1.jpg')no-repeat;
+  background-size: 360px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+.Our_Hot_Picked_image5{
+  width: 310px;
+  height: 235px;
+  background: url('download.jpg')no-repeat;
+  background-size: 300px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+/************ footer **************/
+/* cake land information */
+.footer{
+  height: 350px;
+  background-color: #000;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.footer_info{
+  
+  height: 300px;
+  width: 400px;
+  background-color: 000;
+}
+
+.footer_Cake_Land{color: #fff;
+  margin-top: 5% ;
+  margin-left : 20% ;
+}
+.footer_order_hour{color: #fff;
+  margin-top: 5% ;
+  margin-left : 15% ;
+}
+
+/* Order hour information */
+
+.footer_order{
+  height: 300px;
+  width: 400px;
+  background-color: 000;
+}
+
+.footer_Cake_Land{color: #fff;
+  margin-top: 5% ;
+  margin-left : 20% ;
+}
+.footer_Cake_Land_Paragraph{color: #fff;
+  margin-top: 5% ;
+  margin-left : 20% ;
+}
+
+/* Instagram information */
+
+.footer_Instagram{
+  height: 300px;
+  width: 700px;
+}
+
+.footer_image{
+  display: flex;
+  justify-content: center;
+}
+
+.footer_Instagram_Image1{
+  width: 150px;
+  height: 130px;
+  background-color: #c0a21d;
+  background: url('front_page1.jpg')no-repeat;
+  background-size: 200px;
+}
+
+.footer_Instagram_Image2{
+  width: 150px;
+  height: 130px;
+  background-color: #c0a21d;
+  background: url('download.jpg')no-repeat;
+  background-size: 165px;
+}
+
+.footer_Instagram_Image3{
+  width: 150px;
+  height: 130px;
+  background-color: #c0a21d;
+  background: url('front_page.jpg')no-repeat;
+  background-size: 170px;
+}
+
+.footer_Instagram_Image4{
+  width: 150px;
+  height: 130px;
+  background-color: #c0a21d;
+  background: url('doll.jpg')no-repeat;
+  background-size: 70%;
+}
+.FontAwesomeIcon{
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  color: white;
 }
