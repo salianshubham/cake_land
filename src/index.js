@@ -9,7 +9,7 @@ ReactDOM.render(
   <>
     <section>
       <div className="front_Page">
-        <div className="front_Page1 container">
+        <div className="front_Page1">
           <header>
             <h2 class="logo">CAKE LAND</h2>
             <nav class="navigation">
