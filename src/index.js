@@ -30,9 +30,9 @@ ReactDOM.render(
       <h1 className="our_menu">Our Menu</h1>
 
       <div className="cake_type">
-        <h1>Premium Cakes</h1>
-        <h1>Wedding Cakes</h1>
-        <h1>Cakes</h1>
+        <h1 className="cake_type">Premium Cakes</h1>
+        <h1 className="cake_type">Wedding Cakes</h1>
+        <h1 className="cake_type">Cakes</h1>
       </div>
 
       <div className="card1">
@@ -93,7 +93,7 @@ ReactDOM.render(
           <div className="Our_Hot_Picked_image2"></div>
           <div className="Our_Hot_Picked_image3"></div>
           <div className="Our_Hot_Picked_image4"></div>
-          <div className="Our_Hot_Picked_image5"></div>
+          
         </div>
       </div>
     </section>
@@ -107,23 +107,23 @@ ReactDOM.render(
             your own wish. We have the best chef in the city working for us and
             happy serving you.
           </p>
-          <h3 className="footer_Cake_Land">Contact</h3>
-          <p className="footer_Cake_Land">ashish@gmail.com</p>
-          <p className="footer_Cake_Land">8494980638</p>
+          <h3 className="footer_Cake_Land_info">Contact</h3>
+          <p className="footer_Cake_Land_info">ashish@gmail.com</p>
+          <p className="footer_Cake_Land_info">8494980638</p>
         </div>
 
         <div className="footer_order">
           <h1 className="footer_order_hour">Open Hours</h1>
-          <p className="footer_order_hour">Monday &emsp;&emsp; 9:00-7:00</p>
-          <p className="footer_order_hour">Tuesday &emsp;&emsp; 9:00-7:00</p>
-          <p className="footer_order_hour">wednesday &emsp; 9:00-7:00</p>
-          <p className="footer_order_hour">
+          <p className="footer_order_hour_info">Monday &emsp;&emsp; 9:00-7:00</p>
+          <p className="footer_order_hour_info">Tuesday &emsp;&emsp; 9:00-7:00</p>
+          <p className="footer_order_hour_info">wednesday &emsp; 9:00-7:00</p>
+          <p className="footer_order_hour_info">
             Thursday &emsp;&nbsp;&nbsp;&nbsp; 9:00-7:00
           </p>
-          <p className="footer_order_hour">
+          <p className="footer_order_hour_info">
             Friday &emsp;&emsp;&emsp; 9:00-7:00
           </p>
-          <p className="footer_order_hour">Saturday &emsp;&emsp; 9:00-7:00</p>
+          <p className="footer_order_hour_info">Saturday &emsp;&emsp; 9:00-7:00</p>
           
         </div>
 
