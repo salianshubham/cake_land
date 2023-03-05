@@ -38,7 +38,7 @@ header {
   align-items: center;
   z-index: 99;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   header {
     position: relative;
     top: 0;
@@ -60,7 +60,7 @@ header {
   user-select: none;
   
 }
-@media(max-width:1046px)  {
+@media(max-width:800px)  {
   .logo {
     font-size: 300%;
     color: #fff;
@@ -69,7 +69,7 @@ header {
   }
   
 }
-@media(max-width:863px)  {
+@media(max-width:800px)  {
   .logo {
     font-size: 200%;
     color: #fff;
@@ -78,7 +78,7 @@ header {
   }
   
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .logo {
     font-size: 10px;
     color: #fff;
@@ -101,7 +101,7 @@ header {
   justify-content: center;
 }
 
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .navigation a {
     position: relative;
     font-size: 50%;
@@ -140,7 +140,7 @@ header {
   font-size: 100px;
   color: #c0a21d;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .Speciality{
     text-align: center;
     font-family: 'Dancing Script', cursive;
@@ -154,7 +154,7 @@ header {
   font-family: 'Dancing Script', cursive;
   font-size: 100px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .our_menu{
     text-align: center;
     font-family: 'Dancing Script', cursive;
@@ -167,7 +167,7 @@ header {
   justify-content: center;
   justify-content: space-around;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .cake_type{
     display: flex;
     justify-content: center;
@@ -191,7 +191,7 @@ header {
   background-color: #EBF4F5;
   
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .cake_card1{
     display: flex;
     width: 100px;
@@ -210,7 +210,7 @@ header {
   margin-left: 15px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .cake_card1Cake_cardimage1{
     width: 50px;
     height: 50px;
@@ -226,7 +226,7 @@ header {
   margin-top: 70px;
   margin-left: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .cake_card1Cake_cardName1{
     margin-top: 15px;
     margin-left: 10px;
@@ -241,7 +241,7 @@ header {
   height: 200px;
   background-color: #EBF4F5;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .cake_card2{
     display: flex;
     width: 100px;
@@ -259,7 +259,7 @@ header {
   margin-left: 15px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .cake_card2Cake_cardimage2{
     width: 50px;
     height: 50px;
@@ -276,7 +276,7 @@ header {
   margin-left: 10px;
   font-size: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .cake_card2Cake_cardName2{
     margin-top: 35px;
     margin-left: 10px;
@@ -290,7 +290,7 @@ header {
   height: 200px;
   background-color: #EBF4F5;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .cake_card3{
     display: flex;
     width: 100px;
@@ -308,7 +308,7 @@ header {
   margin-left: 15px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .cake_card3Cake_cardimage3{
     width: 50px;
     height: 50px;
@@ -324,7 +324,7 @@ header {
   margin-top: 70px;
   margin-left: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .cake_card3Cake_cardName3{
     margin-top: 35px;
     margin-left: 5px;
@@ -348,7 +348,7 @@ header {
   background-color: #EBF4F5;
   
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card2Cake_Card1{
     display: flex;
     width: 100px;
@@ -367,7 +367,7 @@ header {
   margin-left: 15px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card2Cake_Card1cake_cardimage2{
     width: 50px;
     height: 50px;
@@ -383,7 +383,7 @@ header {
   margin-top: 70px;
   margin-left: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card2Cake_Card1cake_cardname2{
     margin-top: 35px;
     margin-left: 5px;
@@ -400,7 +400,7 @@ header {
   background-color: #EBF4F5;
   
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card2Cake_Card2{
     display: flex;
     width: 100px;
@@ -419,7 +419,7 @@ header {
   margin-left: 15px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card2Cake_Card2cake_cardimage2{
     width: 50px;
     height: 50px;
@@ -435,7 +435,7 @@ header {
   margin-top: 70px;
   margin-left: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card2Cake_Card2cake_cardname2{
     margin-top: 35px;
     margin-left: 5px;
@@ -453,7 +453,7 @@ header {
   background-color: #EBF4F5;
   
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card2Cake_Card3{
     display: flex;
     width: 100px;
@@ -472,7 +472,7 @@ header {
   margin-left: 15px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card2Cake_Card3cake_cardimage3{
     width: 50px;
     height: 50px;
@@ -488,7 +488,7 @@ header {
   margin-top: 70px;
   margin-left: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card2Cake_Card3cake_cardname3{
     margin-top: 35px;
     margin-left: 5px;
@@ -514,7 +514,7 @@ header {
   background-color: #EBF4F5;
   
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card3Cake_Card1{
     display: flex;
     width: 100px;
@@ -533,7 +533,7 @@ header {
   margin-left: 15px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card3Cake_Card1cake_cardimage1{
     width: 50px;
     height: 50px;
@@ -549,7 +549,7 @@ header {
   margin-top: 70px;
   margin-left: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card3Cake_Card1cake_cardname1{
     margin-top: 35px;
     margin-left: 10px;
@@ -566,7 +566,7 @@ header {
   background-color: #EBF4F5;
   
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card3Cake_Card2{
     display: flex;
     width: 100px;
@@ -585,7 +585,7 @@ header {
   margin-left: 15px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card3Cake_Card2cake_cardimage2{
     width: 50px;
     height: 50px;
@@ -601,7 +601,7 @@ header {
   margin-top: 70px;
   margin-left: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card3Cake_Card2cake_cardname2{
     margin-top: 35px;
     margin-left: 10px;
@@ -619,7 +619,7 @@ header {
   background-color: #EBF4F5;
   
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card3Cake_Card3{
     display: flex;
     width: 100px;
@@ -638,7 +638,7 @@ header {
   margin-left: 15px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card3Cake_Card3cake_cardimage3{
     width: 50px;
     height: 50px;
@@ -654,7 +654,7 @@ header {
   margin-top: 70px;
   margin-left: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .card3Cake_Card3cake_cardname3{
     margin-top: 35px;
     margin-left: 5px;
@@ -671,7 +671,7 @@ header {
   justify-content: center;
   justify-content: space-around;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .Our_Hot_Picked_Cakes{
     /* margin-bottom: 20px; */
     display: flex;
@@ -681,12 +681,12 @@ header {
   
 }
 .Our_Hot_Picked_Cakescake_div{
-  display: block;
+  display: flex;
   width: 40cm;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .Our_Hot_Picked_Cakescake_div{
     display: block;
     width: 20cm;
@@ -704,7 +704,7 @@ header {
   margin-top: 25px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .Our_Hot_Picked_image1{
     width: 150px;
     height: 165px;
@@ -723,7 +723,7 @@ header {
   margin-top: 25px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .Our_Hot_Picked_image2{
     width: 150px;
     height: 165px;
@@ -742,7 +742,7 @@ header {
   margin-top: 25px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .Our_Hot_Picked_image3{
     width: 150px;
     height: 165px;
@@ -761,7 +761,7 @@ header {
   margin-top: 25px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .Our_Hot_Picked_image4{
     width: 150px;
     height: 165px;
@@ -780,7 +780,7 @@ header {
   margin-top: 25px;
   border-radius: 10px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .Our_Hot_Picked_image5{
     width: 150px;
     height: 165px;
@@ -800,7 +800,7 @@ header {
   display: flex;
   /* justify-content: space-between; */
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .footer{
     height: 350px;
     background-color: #000;
@@ -821,7 +821,7 @@ header {
   margin-top: 5% ;
   margin-left : 20% ;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .footer_Cake_Land{color: #fff;
     margin-top: 5% ;
     margin-left : 20% ;
@@ -833,7 +833,7 @@ header {
   margin-top: 5% ;
   margin-left : 15% ;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .footer_order_hour{color: #fff;
     margin-top: 5% ;
     margin-left : 15% ;
@@ -845,7 +845,7 @@ header {
   margin-top: 5% ;
   margin-left : 15% ;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .footer_order_hour_info{color: #fff;
     margin-top: 5% ;
     margin-left : 15% ;
@@ -857,7 +857,7 @@ header {
   margin-top: 5% ;
   margin-left : 20% ;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .footer_Cake_Land_Paragraph{color: #fff;
     margin-top: 5% ;
     margin-left : 20% ;
@@ -869,7 +869,7 @@ header {
   margin-top: 5% ;
   margin-left : 20% ;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .footer_Cake_Land_info{color: #fff;
     margin-top: 5% ;
     margin-left : 20% ;
@@ -915,7 +915,7 @@ header {
   background: url('front_page1.jpg')no-repeat;
   background-size: 200px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .footer_Instagram_Image1{
     width: 75px;
     height: 75px;
@@ -933,7 +933,7 @@ header {
   background: url('download.jpg')no-repeat;
   background-size: 165px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .footer_Instagram_Image2{
     width: 75px;
     height: 75px;
@@ -951,7 +951,7 @@ header {
   background: url('front_page.jpg')no-repeat;
   background-size: 170px;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .footer_Instagram_Image3{
     width: 75px;
     height: 75px;
@@ -969,7 +969,7 @@ header {
   background: url('doll.jpg')no-repeat;
   background-size: 70%;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .footer_Instagram_Image4{
     width: 75px;
     height: 75px;
@@ -985,7 +985,7 @@ header {
   font-size: 30px;
   color: white;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .FontAwesomeIcon{
     display: flex;
     justify-content: space-around;
