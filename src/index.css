@@ -18,10 +18,10 @@
   min-height: 100vh;
 }
 
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .front_Page1{
     display: flex;
-    min-height: 20vh;
+    min-height: 40vh;
   }
 }
 
@@ -703,6 +703,7 @@ header {
   background-size: 320px;
   margin-top: 25px;
   border-radius: 10px;
+  align-items: center;
 }
 @media(max-width:800px)  {
   .Our_Hot_Picked_image1{
@@ -712,6 +713,7 @@ header {
     background-size: 160px;
     margin-top: 15px;
     border-radius: 10px;
+    margin-left: 35%;
   }
   
 }
@@ -731,6 +733,7 @@ header {
     background-size: 160px;
     margin-top: 15px;
     border-radius: 10px;
+    margin-left: 35%;
   }
   
 }
@@ -750,6 +753,7 @@ header {
     background-size: 160px;
     margin-top: 15px;
     border-radius: 10px;
+    margin-left: 35%;
   }
   
 }
@@ -769,6 +773,7 @@ header {
     background-size: 160px;
     margin-top: 15px;
     border-radius: 10px;
+    margin-left: 35%;
   }
   
 }
@@ -901,7 +906,7 @@ header {
   display: flex;
   justify-content: center;
 }
-@media(max-width:300px)  {
+@media(max-width:800px)  {
   .footer_image{
     display: block;
   }
@@ -914,6 +919,7 @@ header {
   background-color: #c0a21d;
   background: url('front_page1.jpg')no-repeat;
   background-size: 200px;
+  margin-left: 20px;
 }
 @media(max-width:800px)  {
   .footer_Instagram_Image1{
