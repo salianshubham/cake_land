@@ -8,8 +8,8 @@
 }
 
 .front_Page{
-  background: url('front_page1.jpg')no-repeat;
-  background-size: 100%;
+  background: url('images/front_page1.jpg')no-repeat;
+   background-size: 100%; 
 }
 
 
@@ -21,7 +21,7 @@
 @media(max-width:800px)  {
   .front_Page1{
     display: flex;
-    min-height: 40vh;
+    min-height: 20vh;
   }
 }
 
@@ -204,7 +204,7 @@ header {
 .cake_card1Cake_cardimage1{
   width: 150px;
   height: 150px;
-  background: url('front_page1.jpg')no-repeat;
+  background: url('images/front_page1.jpg')no-repeat;
   background-size: 200px;
   margin-top: 25px;
   margin-left: 15px;
@@ -214,7 +214,7 @@ header {
   .cake_card1Cake_cardimage1{
     width: 50px;
     height: 50px;
-    background: url('front_page1.jpg')no-repeat;
+    background: url('images/front_page1.jpg')no-repeat;
     background-size: 50px;
     margin-top: 15px;
     margin-left: 5px;
@@ -253,7 +253,7 @@ header {
 .cake_card2Cake_cardimage2{
   width: 150px;
   height: 150px;
-  background: url('doll.jpg')no-repeat;
+  background: url('images/doll.jpg')no-repeat;
   background-size: 200px;
   margin-top: 25px;
   margin-left: 15px;
@@ -263,7 +263,7 @@ header {
   .cake_card2Cake_cardimage2{
     width: 50px;
     height: 50px;
-    background: url('doll.jpg')no-repeat;
+    background: url('images/doll.jpg')no-repeat;
     background-size: 50px;
     margin-top: 15px;
     margin-left: 10px;
@@ -274,7 +274,7 @@ header {
 .cake_card2Cake_cardName2{
   margin-top: 70px;
   margin-left: 10px;
-  font-size: 10px;
+  
 }
 @media(max-width:800px)  {
   .cake_card2Cake_cardName2{
@@ -302,7 +302,7 @@ header {
 .cake_card3Cake_cardimage3{
   width: 150px;
   height: 150px;
-  background: url('download.jpg')no-repeat;
+  background: url('images/download.jpg')no-repeat;
   background-size: 200px;
   margin-top: 25px;
   margin-left: 15px;
@@ -312,7 +312,7 @@ header {
   .cake_card3Cake_cardimage3{
     width: 50px;
     height: 50px;
-    background: url('download.jpg')no-repeat;
+    background: url('images/download.jpg')no-repeat;
     background-size: 50px;
     margin-top: 15px;
     margin-left: 10px;
@@ -361,7 +361,7 @@ header {
 .card2Cake_Card1cake_cardimage2{
   width: 150px;
   height: 150px;
-  background: url('download.jpg')no-repeat;
+  background: url('images/download.jpg')no-repeat;
   background-size: 200px;
   margin-top: 25px;
   margin-left: 15px;
@@ -371,7 +371,7 @@ header {
   .card2Cake_Card1cake_cardimage2{
     width: 50px;
     height: 50px;
-    background: url('download.jpg')no-repeat;
+    background: url('images/download.jpg')no-repeat;
     background-size: 50px;
     margin-top: 15px;
     margin-left: 10px;
@@ -413,7 +413,7 @@ header {
 .card2Cake_Card2cake_cardimage2{
   width: 150px;
   height: 150px;
-  background: url('front_page1.jpg')no-repeat;
+  background: url('images/front_page1.jpg')no-repeat;
   background-size: 200px;
   margin-top: 25px;
   margin-left: 15px;
@@ -423,7 +423,7 @@ header {
   .card2Cake_Card2cake_cardimage2{
     width: 50px;
     height: 50px;
-    background: url('front_page1.jpg')no-repeat;
+    background: url('images/front_page1.jpg')no-repeat;
     background-size: 50px;
     margin-top: 15px;
     margin-left: 10px;
@@ -466,7 +466,7 @@ header {
 .card2Cake_Card3cake_cardimage3{
   width: 150px;
   height: 150px;
-  background: url('doll.jpg')no-repeat;
+  background: url('images/doll.jpg')no-repeat;
   background-size: 200px;
   margin-top: 25px;
   margin-left: 15px;
@@ -476,7 +476,7 @@ header {
   .card2Cake_Card3cake_cardimage3{
     width: 50px;
     height: 50px;
-    background: url('doll.jpg')no-repeat;
+    background: url('images/doll.jpg')no-repeat;
     background-size: 50px;
     margin-top: 15px;
     margin-left: 10px;
@@ -527,7 +527,7 @@ header {
 .card3Cake_Card1cake_cardimage1{
   width: 150px;
   height: 150px;
-  background: url('front_page1.jpg')no-repeat;
+  background: url('images/front_page1.jpg')no-repeat;
   background-size: 200px;
   margin-top: 25px;
   margin-left: 15px;
@@ -537,7 +537,7 @@ header {
   .card3Cake_Card1cake_cardimage1{
     width: 50px;
     height: 50px;
-    background: url('front_page1.jpg')no-repeat;
+    background: url('images/front_page1.jpg')no-repeat;
     background-size: 50px;
     margin-top: 15px;
     margin-left: 10px;
@@ -579,7 +579,7 @@ header {
 .card3Cake_Card2cake_cardimage2{
   width: 150px;
   height: 150px;
-  background: url('download.jpg')no-repeat;
+  background: url('images/download.jpg')no-repeat;
   background-size: 200px;
   margin-top: 25px;
   margin-left: 15px;
@@ -589,7 +589,7 @@ header {
   .card3Cake_Card2cake_cardimage2{
     width: 50px;
     height: 50px;
-    background: url('download.jpg')no-repeat;
+    background: url('images/download.jpg')no-repeat;
     background-size: 50px;
     margin-top: 15px;
     margin-left: 10px;
@@ -632,7 +632,7 @@ header {
 .card3Cake_Card3cake_cardimage3{
   width: 150px;
   height: 150px;
-  background: url('pineapple.jpeg')no-repeat;
+  background: url('images/pineapple.jpeg')no-repeat;
   background-size: 200px;
   margin-top: 25px;
   margin-left: 15px;
@@ -642,7 +642,7 @@ header {
   .card3Cake_Card3cake_cardimage3{
     width: 50px;
     height: 50px;
-    background: url('pineapple.jpeg')no-repeat;
+    background: url('images/pineapple.jpeg')no-repeat;
     background-size: 50px;
     margin-top: 15px;
     margin-left: 10px;
@@ -699,7 +699,7 @@ header {
 .Our_Hot_Picked_image1{
   width: 300px;
   height: 330px;
-  background: url('front_page.jpg')no-repeat;
+  background: url('images/front_page.jpg')no-repeat;
   background-size: 320px;
   margin-top: 25px;
   border-radius: 10px;
@@ -709,7 +709,7 @@ header {
   .Our_Hot_Picked_image1{
     width: 150px;
     height: 165px;
-    background: url('front_page.jpg')no-repeat;
+    background: url('images/front_page.jpg')no-repeat;
     background-size: 160px;
     margin-top: 15px;
     border-radius: 10px;
@@ -720,7 +720,7 @@ header {
 .Our_Hot_Picked_image2{
   width: 300px;
   height: 235px;
-  background: url('doll.jpg')no-repeat;
+  background: url('images/doll.jpg')no-repeat;
   background-size: 300px;
   margin-top: 25px;
   border-radius: 10px;
@@ -729,7 +729,7 @@ header {
   .Our_Hot_Picked_image2{
     width: 150px;
     height: 165px;
-    background: url('doll.jpg')no-repeat;
+    background: url('images/doll.jpg')no-repeat;
     background-size: 160px;
     margin-top: 15px;
     border-radius: 10px;
@@ -740,7 +740,7 @@ header {
 .Our_Hot_Picked_image3{
   width: 310px;
   height: 235px;
-  background: url('pineapple.jpeg')no-repeat;
+  background: url('images/pineapple.jpeg')no-repeat;
   background-size: 300px;
   margin-top: 25px;
   border-radius: 10px;
@@ -749,7 +749,7 @@ header {
   .Our_Hot_Picked_image3{
     width: 150px;
     height: 165px;
-    background: url('pineapple.jpeg')no-repeat;
+    background: url('images/pineapple.jpeg')no-repeat;
     background-size: 160px;
     margin-top: 15px;
     border-radius: 10px;
@@ -760,7 +760,7 @@ header {
 .Our_Hot_Picked_image4{
   width: 310px;
   height: 350px;
-  background: url('front_page1.jpg')no-repeat;
+  background: url('images/front_page1.jpg')no-repeat;
   background-size: 360px;
   margin-top: 25px;
   border-radius: 10px;
@@ -769,7 +769,7 @@ header {
   .Our_Hot_Picked_image4{
     width: 150px;
     height: 165px;
-    background: url('front_page1.jpg')no-repeat;
+    background: url('images/front_page1.jpg')no-repeat;
     background-size: 160px;
     margin-top: 15px;
     border-radius: 10px;
@@ -780,7 +780,7 @@ header {
 .Our_Hot_Picked_image5{
   width: 310px;
   height: 235px;
-  background: url('download.jpg')no-repeat;
+  background: url('images/download.jpg')no-repeat;
   background-size: 300px;
   margin-top: 25px;
   border-radius: 10px;
@@ -789,7 +789,7 @@ header {
   .Our_Hot_Picked_image5{
     width: 150px;
     height: 165px;
-    background: url('download.jpg')no-repeat;
+    background: url('images/download.jpg')no-repeat;
     background-size: 160px;
     margin-top: 15px;
     border-radius: 10px;
@@ -917,7 +917,7 @@ header {
   width: 150px;
   height: 130px;
   background-color: #c0a21d;
-  background: url('front_page1.jpg')no-repeat;
+  background: url('images/front_page1.jpg')no-repeat;
   background-size: 200px;
   margin-left: 20px;
 }
@@ -926,8 +926,9 @@ header {
     width: 75px;
     height: 75px;
     background-color: #c0a21d;
-    background: url('front_page1.jpg')no-repeat;
+    background: url('images/front_page1.jpg')no-repeat;
     background-size: 100px;
+    margin: 0px;
   }
   
 }
@@ -936,7 +937,7 @@ header {
   width: 150px;
   height: 130px;
   background-color: #c0a21d;
-  background: url('download.jpg')no-repeat;
+  background: url('images/download.jpg')no-repeat;
   background-size: 165px;
 }
 @media(max-width:800px)  {
@@ -944,7 +945,7 @@ header {
     width: 75px;
     height: 75px;
     background-color: #c0a21d;
-    background: url('download.jpg')no-repeat;
+    background: url('images/download.jpg')no-repeat;
     background-size: 100px;
   }
   
@@ -954,7 +955,7 @@ header {
   width: 150px;
   height: 130px;
   background-color: #c0a21d;
-  background: url('front_page.jpg')no-repeat;
+  background: url('images/front_page.jpg')no-repeat;
   background-size: 170px;
 }
 @media(max-width:800px)  {
@@ -962,7 +963,7 @@ header {
     width: 75px;
     height: 75px;
     background-color: #c0a21d;
-    background: url('front_page.jpg')no-repeat;
+    background: url('images/front_page.jpg')no-repeat;
     background-size: 100px;
   }
   
@@ -972,7 +973,7 @@ header {
   width: 150px;
   height: 130px;
   background-color: #c0a21d;
-  background: url('doll.jpg')no-repeat;
+  background: url('images/doll.jpg')no-repeat;
   background-size: 70%;
 }
 @media(max-width:800px)  {
@@ -980,7 +981,7 @@ header {
     width: 75px;
     height: 75px;
     background-color: #c0a21d;
-    background: url('doll.jpg')no-repeat;
+    background: url('images/doll.jpg')no-repeat;
     background-size: 100px;
   }
   
@@ -994,7 +995,7 @@ header {
 @media(max-width:800px)  {
   .FontAwesomeIcon{
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     font-size: 15px;
     color: white;
   }
