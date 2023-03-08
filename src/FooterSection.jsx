@@ -6,7 +6,7 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 function FooterSection(){
-    return(<section id="services">
+    return(<section id="section_4">
     <div className="footer">
       <div className="footer_info">
         <h1 className="footer_Cake_Land">Cake Land</h1>

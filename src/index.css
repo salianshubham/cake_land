@@ -21,7 +21,7 @@
 @media(max-width:800px)  {
   .front_Page1{
     display: flex;
-    min-height: 20vh;
+    min-height: 30vh;
   }
 }
 
@@ -280,6 +280,7 @@ header {
   .cake_card2Cake_cardName2{
     margin-top: 35px;
     margin-left: 10px;
+    font-size: 10px;
   }
   
 }

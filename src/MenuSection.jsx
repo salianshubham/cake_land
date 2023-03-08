@@ -1,5 +1,5 @@
 function MenuSection(){
-    return(<section id="services">
+    return(<section id="section_2">
     <h1 className="Speciality">Speciality</h1>
     <h1 className="our_menu">Our Menu</h1>
 
