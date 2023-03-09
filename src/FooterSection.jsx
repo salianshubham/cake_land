@@ -5,6 +5,9 @@ import {
   faInstagram,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import {
+  faBars
+} from "@fortawesome/free-solid-svg-icons";
 function FooterSection(){
     return(<section id="section_4">
     <div className="footer">
@@ -53,6 +56,7 @@ function FooterSection(){
           <FontAwesomeIcon icon={faTwitter} />
           <FontAwesomeIcon icon={faInstagram} />
           <FontAwesomeIcon icon={faWhatsapp} />
+          <FontAwesomeIcon icon={faBars} />
         </div>
       </div>
     </div>

@@ -45,9 +45,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 0.5px 20px;
-    display: flex;
-    justify-content: space-between;
+    padding: 0.5px 20px;   
     align-items: center;
     z-index: 99;
   }
@@ -1002,3 +1000,48 @@ header {
   }
   
 }
+
+.menuBar{
+  color: white;
+  display: none;
+}
+
+@media(max-width:800px)  {
+  .navigation{
+    display: none;
+  }
+  .menuBar{
+    color: white;
+    display: block;
+  }
+  
+}
+.navigation_DropDown{
+  
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  overflow: hidden;
+}
+.navigation_menuBar {
+  display: none;
+  padding: 0.7rem;
+  width: 30%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.navigation_menuBar li{
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+}
+.navigation_menuBar a{
+ text-decoration: none;
+  color: white;
+}
+li{list-style: none;}
