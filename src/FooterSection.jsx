@@ -1,4 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Swiper, SwiperSlide } from 'swiper/react';
+// import 'swiper/css';
 import {
   faFacebook,
   faTwitter,
@@ -44,10 +46,25 @@ function FooterSection(){
       <div className="footer_Instagram">
         <h1 className="footer_Cake_Land">Instagram</h1>
         <div className="footer_image">
-          <diV className="footer_Instagram_Image1"></diV>
+          {/* <diV className="footer_Instagram_Image1"></diV>
           <div className="footer_Instagram_Image2"></div>
           <diV className="footer_Instagram_Image3"></diV>
-          <div className="footer_Instagram_Image4"></div>
+          <div className="footer_Instagram_Image4"></div> */}
+          <Swiper
+    
+    slidesPerView={3}
+    onSlideChange={() => console.log('slide change')}
+    onSwiper={(swiper) => console.log(swiper)}
+  >
+    <SwiperSlide><div className="footer_Instagram_Image1"></div></SwiperSlide>
+    <SwiperSlide><div className="footer_Instagram_Image2"></div></SwiperSlide>
+    <SwiperSlide><div className="footer_Instagram_Image3"></div></SwiperSlide>
+    <SwiperSlide><div className="footer_Instagram_Image4"></div></SwiperSlide>
+    <SwiperSlide><div className="footer_Instagram_Image1"></div></SwiperSlide>
+    <SwiperSlide><div className="footer_Instagram_Image2"></div></SwiperSlide>
+    <SwiperSlide><div className="footer_Instagram_Image3"></div></SwiperSlide>
+    <SwiperSlide><div className="footer_Instagram_Image4"></div></SwiperSlide>
+  </Swiper>
         </div>
         <div className="FontAwesomeIcon">
           <FontAwesomeIcon icon={faFacebook} />

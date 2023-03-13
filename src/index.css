@@ -912,7 +912,7 @@ header {
 }
 @media(max-width:800px)  {
   .footer_image{
-    display: block;
+    display: flex;
   }
   
 }
@@ -999,7 +999,7 @@ header {
 @media(max-width:800px)  {
   .FontAwesomeIcon{
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
     font-size: 15px;
     color: white;
   }
